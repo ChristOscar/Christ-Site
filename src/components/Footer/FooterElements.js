@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 
 export const FooterContainer = styled.footer`
-  background-color: ${(p) => p.theme.brown};
+  background-color: #DEDEDE;
 `;
 
 export const FooterWrap = styled.div`
@@ -33,7 +33,7 @@ export const SocialMediaWrap = styled.div`
 `;
 
 export const SocialLogo = styled(Link)`
-  color: ${(p) => p.theme.melon};
+  color: #FFB7C5;
   justify-self: start;
   cursor: pointer;
   text-decoration: none;
